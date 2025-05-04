@@ -107,13 +107,6 @@ const uint8_t our_report_descriptor_kb_mouse[] = {
     0x85, REPORT_ID_LEDS,      //   Report ID (REPORT_ID_LEDS)
     0x05, 0x08,                //   Usage Page (LEDs)
     0x95, 0x05,                //   Report Count (5)
-    0x19, 0x01,                //   Usage Minimum (Num Lock)
-    0x29, 0x05,                //   Usage Maximum (Kana)
-    0x91, 0x02,                //   Output (Data,Var,Abs,No Wrap,Linear,Preferred State,No Null Position,Non-volatile)
-    0x95, 0x01,                //   Report Count (1)
-    0x75, 0x03,                //   Report Size (3)
-    0x91, 0x03,                //   Output (Const,Var,Abs,No Wrap,Linear,Preferred State,No Null Position,Non-volatile)
-    0xC0,                      // End Collection
 
     0x05, 0x0C,                // Usage Page (Consumer)
     0x09, 0x01,                // Usage (Consumer Control)
